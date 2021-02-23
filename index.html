@@ -14,10 +14,10 @@
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
         <style>
+            
             .details{
                 box-shadow: 5px 10px 8px 10px rgb(99, 97, 97);
                 padding: 20px;
-                margin-top: 10px;
             }
         </style>
 </head>
@@ -104,7 +104,9 @@
                 <button type="submit" class="btn btn-primary">Submit</button>
             </div>
         </form>
-        <table class="table table-bordered border-primary" style="margin-top: 50px; text-align: center;">
+        
+
+        <table id="table" class="table table-bordered border-primary" style="margin-top: 50px; text-align: center;">
             <thead>
                 <tr>
                     <th>FirstName</th>
@@ -116,6 +118,9 @@
                     <th>Gender</th>
                     <th>Email</th>
                     <th>Address</th>
+                    <th>Delete</th>
+                    <th>Edit</th>
+                    <th>Update</th>
                 </tr>
             </thead>
             <tbody id="tbody">
